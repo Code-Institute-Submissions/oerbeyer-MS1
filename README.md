@@ -39,6 +39,20 @@ I chose this project for the following reasons:
 - Styling for the footer uses Bootstrap classes and custom CSS rules.
 - The `<main>` element has padding added using custom CSS rules to accommodate the sticky (collapsable nav menu) header and sticky (floating) footer.
 - The app is tested for viewport widths of 320px or more.
+- The Header (Navbar) feature is described further below.
+- The other minor features are described here:
+  - Main
+     - The <main> element has padding added using custom CSS rules to accommodate the sticky (collapsable nav menu) header and sticky (floating) footer.
+     - Set main {margin-bottom: 4.4rem; margin-top: 4.4rem;} so that there is sufficient space top and bottom when the navbar menu is collapsed.
+     - Set a media rule to increase the margin-top for larger screens when screen width > 576px (i.e. > sm).
+  - Footer
+     - Wrap a <button> element containing a FontAwesome guitar icon inside a <div> element.
+     - Add data-bs-toggle and data-bs-target properties to the <button> element to control the modal contact form.
+     - Add class="btn" and class="btn-dark" to style the button.
+     - Add <i class="fas fa-guitar text-success text-light"> for the FontAweoms guitar icon.
+     - Add class="d-flex justify-content-center" to horixontally center the button.
+     - Add class="px-3 py-2" so that there is sufficient space around the button and symmetry with the header.
+     - Set footer {position: fixed; bottom:0; left:0; right: 0; z-index: 1020;} so that the button is fixed to the bottom and floating infront of other content using custom CSS rules.
 
 ## Templates
 I make extensive use of the Bootstrap framework and templates.
@@ -54,7 +68,7 @@ For features I use the following template components:
   - Modal
   - Navbar
 
-## Customisation:
+## Customisation
 
 I customsie functional features at the template level by modifying template components:
   - The Carousel is customised by adding controls, captions, crossfade transitions, use containers to control display width, and add anchor tags to create links to additional content pages.
@@ -64,7 +78,7 @@ I customsie functional features at the template level by modifying template comp
   
 I add, remmove and modify elements, classes, ids and associated attribute-value pairs using HTML and CSS to further cusomise features:
 
-## Primary Features 
+## Features
 
 - __Navbar__
 
@@ -155,7 +169,7 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 - The .jpg files showing screenshots for the webpages and the contact us model and contained in the /screenshots sub sub directory.
 - There are two sets of screenshots, each numbered in the order that a user is likely to navigate through the pages. The A1 - E1 set is the mobile user journy and screenshots.  The 01 - 05 set is the laptop user journey and screen shots.
 
-## Manual Testing
+## Testing
 
 - I manually test the website. I click through each link in each page checking that it works, and I check that every feature displays and behaves as intended. I use the Chrome DevTools to inspect each page. 
 - I toggle the device toolbar and check that each page responds appropriately to all the different breakpoints in protrait and landscape.
