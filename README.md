@@ -3,6 +3,7 @@
 I've chosen to redesign the website for my local guitar shop, **The Guitar Centre, in Sevenoaks, UK**.
 
 The existing website can be viewed [here](https://www.sevenoaksguitarcentre.co.uk/).
+
 The redsigned website can be viewed [here](https://oerbeyer.github.io/MS1/index.html).
 
 I chose this project for the following reasons:
