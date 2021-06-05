@@ -1,6 +1,6 @@
 # The Guitar Centre
 
-I've chosen to redesign the website for my local guitar shop, **The Guitar Centre, in Sevenoaks, UK**.
+I've chosen to redesign the website for my local guitar shop, **The Guitar Centre**, in Sevenoaks, UK.
 
 The existing website can be viewed [here](https://www.sevenoaksguitarcentre.co.uk/).
 
