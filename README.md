@@ -96,7 +96,7 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 ## Design Paradigm
 
-- Mobile first layout with a single level of responsive design for larger screens when screen width > 576px (i.e. > sm).
+- Mobile first layout with a single level of responsive design for larger screens when screen width > 576px (> sm).
 - The layout and size of buttons, navigation links and other controls accommodate one-handed navigation.
 - The centered horizontal alignment of buttons and navigation links accommodate right-handed and left-handed users.
 - The website is simple and consists of a one home (landing) page, two additional (content) pages and a single modal (contact form).
@@ -119,7 +119,7 @@ Use this section to provide insight into your UX process, focusing on who this w
   - Main
      - The `<main>` element has padding added using custom CSS rules to accommodate the sticky (collapsable nav menu) header and sticky (floating) footer.
      - Set main {margin-bottom: 4.4rem; margin-top: 4.4rem;} so that there is sufficient space top and bottom when the navbar menu is collapsed.
-     - Set a media rule to increase the margin-top for larger screens when screen width > 576px (i.e. > sm).
+     - Set a media rule to increase the margin-top for larger screens when screen width > 576px (> sm).
   - Footer
      - Wrap a `<button>` element containing a FontAwesome guitar icon inside a `<div>` element.
      - Add data-bs-toggle and data-bs-target properties to the `<button>` element to control the modal contact form.
@@ -127,7 +127,7 @@ Use this section to provide insight into your UX process, focusing on who this w
      - Add `<i class="fas fa-guitar text-success text-light">` for the FontAweoms guitar icon.
      - Add class="d-flex justify-content-center" to horixontally center the button.
      - Add class="px-3 py-2" so that there is sufficient space around the button and symmetry with the header.
-     - Set footer {position: fixed; bottom:0; left:0; right: 0; z-index: 1020;} so that the button is fixed to the bottom and floating infront of other content using custom CSS rules.
+     - Set footer {position: fixed; bottom: 0; left: 0; right: 0; z-index: 1020;} so that the button is fixed to the bottom and floating infront of other content using custom CSS rules.
 
 ## Templates
 I make extensive use of the Bootstrap framework and templates.
@@ -160,7 +160,7 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
   - Wrap the entire navbar in a `<header>`` element for semantic clarity.
   - Replace id="navbarCollapse" with id="navbarMenu" for semantic clarity.
   - Style using mainly Bootstrap classes as opposed to cutom CSS rules.
-  - Add class="navbar-expand-sm" so that nav menu becomes horizontally visible for larger screens when screen width > 576px (i.e. > sm).
+  - Add class="navbar-expand-sm" so that nav menu becomes horizontally visible for larger screens when screen width > 576px (> sm).
   - Add class="flex-column" so that main page heading and nav menu are automatically vertically stacked since the heading is wrapped in `<a>` (inline) and nav items are wrapped in `<div>` (block).
   - Add class="text-center" so that main page heading and nav items are alwys horizontally centered.
   - Add class="fixed-top" so that navbar is sticks to the top and is always visible.
@@ -182,7 +182,7 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
   - Replace the `<h5>` elements with a more prominent `<h2>` elements in each slide.
   - Add id="slide-workshop" and id="slide-lessons" to each slide to semantically identify each slide, to link with each content page and to set the background-image attribute for each slide using custom CSS rules.
   - Add class="slide-background" and set .slide-background {background-size: cover; background-repeat: no-repeat; background-position: center;} to center and stretch the backgrund image using custom CSS rules.
-  - Set a media rule to display an alternative image for larger screens when screen width > 576px (i.e. > sm).
+  - Set a media rule to display an alternative image for larger screens when screen width > 576px (> sm).
   - Set .carousel-caption {bottom: 5rem; background-color: rgba(0,0,0,0.4); border-radius: 1rem;} to vertically center the caption text, to add contrast between light text and background image, and soften corners of contrast box using custom CSS rules.
   - Set .carousel-caption > * {margin-bottom: 8px;} to remove unnecessary margin from the template using custom CSS rules.
   - Set .carousel-item {height: 18rem;} necessary since there is no `<img>` element to provide a height to each slide using custom CSS rules.
@@ -202,8 +202,8 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
   - Wrap section content in `<div class="container">` element to restrict display width for very wide screens.
   - Wrap section content in `<div class="row pt-2">` element for sufficient spacing.
   - Create three card components using the same set of steps, varying only the content and formatting of the card headers.
-  - Wrap each card in a `<div class="col-sm-4">` element to respond dynamically to screen width > 576px (i.e. > sm).
-  - Add class=" mb-3 mb-sm-0" to all cards but for the last to manage vertical spacing between cards on smaller screens (i.e. < sm) and to maintain alignment of cards on larger scrreens (i.e. > sm).
+  - Wrap each card in a `<div class="col-sm-4">` element to respond dynamically to screen width > 576px (> sm).
+  - Add class=" mb-3 mb-sm-0" to all cards but for the last to manage vertical spacing between cards on smaller screens (< sm) and to maintain alignment of cards on larger scrreens (> sm).
   - Set .bg-bronze {background-color: #cd7f32;}, .bg-gold {background-color: #ffd700;} and .bg-silver {background-color: #c0c0c0;} to format card header backgrounds using custom CSS rules.
   - Set classes used for styling card body class `<div>` elements identically.  In general, use subtitles to show progression and center text.
   - Set classes used for styling card footer class `<div>` elements identically.  In general, maintain off-white background colour and set price to primary blue colour to attract attention.
@@ -218,7 +218,7 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
   - Wrap section content in `<div class="row pt-2">` element for sufficient spacing.
   - Create a table showing general availability (locations) for days (vertical) and times (horizontal).
   - Add class="table table-sm text-center" and id="table-times-section" to format table contents and uniquely identify table for custom CSS rules.
-  - Set a media rule to reduce font size for smaller screens so that table fits to screen width on mobiles when screen width < 576px (i.e. < sm).
+  - Set a media rule to reduce font size for smaller screens so that table fits to screen width on mobiles when screen width < 576px (< sm).
   - Add class="bg-primary text-light" and class="bg-success text-light" to `<td>` elements to help the user to visually identify different locations.
 
 ![Times](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/03%20laptop-tuition.jpg)
