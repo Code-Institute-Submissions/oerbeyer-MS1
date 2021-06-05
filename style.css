@@ -1,0 +1,134 @@
+/* --------------------------------------------- Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Nunito:wght@200;300;400&display=swap');
+
+/* --------------------------------------------- globals */
+a, button {
+  font-family: 'Nunito 300', sans-serif;
+}
+      
+body {
+  min-width: 320px;
+}
+
+h2 {
+  font-family: 'Bungee Inline', cursive;
+}
+
+p {
+  font-family: 'Nunito 200', sans-serif;
+}
+
+.nav-link {
+  color: #343A40;
+}
+
+/* --------------------------------------------- header */
+nav {
+  background-color: #fff;
+}
+      
+/* --------------------------------------------- main */
+main {
+  margin-bottom: 4.4rem;
+  margin-top: 4.4rem;
+}
+
+@media only screen and (min-width: 576px) {
+  main {
+    margin-bottom: 4.4rem;
+    margin-top: 6.8rem;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  main {
+    margin-bottom: 4.4rem;
+    margin-top: 6.8rem;
+  }
+}
+
+/* --------------------------------------------- footer */
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    right: 0;
+    z-index: 1020;
+}
+
+/* ----------------------------------------- carousel-section */
+
+div.carousel-caption {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 1rem;
+}
+
+.carousel-caption {
+  bottom: 5rem;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 1rem;
+}
+
+.carousel-caption > * {
+  margin-bottom: 8px;
+}
+
+.carousel-item {
+  height: 18rem;
+}
+
+.slide-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#slide-tuition {
+background-image: url('../img/andriyko-podilnyk-xuYRZTqVQB0-unsplash.png');
+}
+
+@media only screen and (min-width: 576px) {
+  #slide-tuition {
+    background-image: url('../img/joel-drzycimski-lvm7UxUOrW4-unsplash.png');
+  }
+}
+
+#slide-workshop {
+  background-image: url('../img/jonny-swales-iexaing4zku-unsplash.png');
+}
+
+/* ----------------------------------------- times-section */
+
+@media only screen and (max-width: 576px) {
+        #table-times-section {font-size: 0.5rem;}
+      }
+
+/* ----------------------------------------- workshop-section */
+
+.bg-bronze {
+background-color: #cd7f32;
+}
+
+.bg-gold {
+  background-color: #ffd700;
+}
+      
+.bg-silver {
+  background-color: #c0c0c0;
+ }
+
+/* ----------------------------------------- modalContactUs */
+
+.map-container{
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+}
+
+.map-container iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
