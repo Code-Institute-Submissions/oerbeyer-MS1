@@ -172,7 +172,7 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 
 ![Navbar](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/D1%20mobile-navbar-expanded.jpg)
 
-- __Carousel__
+- __Carousel section__
 
   - Appears only in the home page. It gives the user an interactive navigation to the relevant service web page.
   - Wrap the entire carousel in a `<div class="container">` element to restrict display width for very wide screens.
@@ -189,7 +189,7 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 
 ![Carousel](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/A1%20mobile-home-topscroll.jpg)
 
-- __Clips__
+- __Clips section__
 
   - Appears only in the home page. It shows the user some inspirational YouTube guitar performer-teacher video clips.
   - Design similar to Header-Section (Feature).
