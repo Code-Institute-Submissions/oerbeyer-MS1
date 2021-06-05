@@ -17,7 +17,7 @@ I chose this project for the following reasons:
 - This makes it a very good candidate for the user centric frontend design section of this Code Institute Diploma course.
 - The responsiveness of the UX design is especially in need of enhancement.
 
-[Landing Page](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/02%20laptop-home-workshop-carousel.jpg)
+![Landing Page](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/02%20laptop-home-workshop-carousel.jpg)
 
 ## Design Paradigm
 
