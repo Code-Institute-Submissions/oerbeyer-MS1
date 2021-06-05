@@ -1,6 +1,6 @@
 # The Guitar Centre
 
-I've chosen to redesign the website for my local guitar shop, The Guitar Centre, in Sevenoaks, UK.
+I've chosen to redesign the website for my local guitar shop, **The Guitar Centre, in Sevenoaks, UK**.
 
 The existing website can be viewed [here](https://www.sevenoaksguitarcentre.co.uk/).
 The redsigned website can be viewed [here](https://oerbeyer.github.io/MS1/index.html).
@@ -27,7 +27,7 @@ taking up playing the guitar.
 
 The summary value drivers for the business and for customers (based on the user stories) are as follows:
 
-### **Value drivers for the business** 
+### Value drivers for the business
 
 + The website should support and enhance the business's brand which is passion for and 
 expertise in all things guitar.
@@ -37,7 +37,7 @@ in-store visits.
 + The website should render properly and responsively on smart phones, tablets (portrait) and laptops.
 + The website should clearly explain how the business is operating during Covid-19.
 
-### **Value drivers for the customer**
+### Value drivers for the customer
 
 + The website should be attractive to and relevant for guitar players of various skill levels.
 + The website should be attractive to and relevant for someone who is thinking of taking up playing the guitar.
@@ -47,7 +47,7 @@ in-store visits.
 + The website should have clear calls to action e.g. special offers.
 
 
-### **User stories**
+### User stories
 Please note that the following is **not** an ordered list of user stories. The **ID** is simply a 4 digit unique identifier. 
 An ID starting with a 1 is a business user story. An ID starting with a 2 is a customer user story. 
 
@@ -85,9 +85,9 @@ ID | As a... | I want... | So that...
 2150 |  Customer | to navigate to the info webpage for a selected service from any other webpage in the website | I can quickly review the info for that service
 2160 |  Customer | to contact you easily from any webpage in the website | it's convenient and easy for me to contact you
 
-### **Delivering value**
+### Delivering value
 
-This project implements a simple, but elegant and responsive website for **The Guitar Centre**.
+This project implements the beginnings of a simple, but elegant and responsive website for **The Guitar Centre**.
 
 It is created with the future in mind.
 
@@ -229,7 +229,7 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 
 ![Modal](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/E1%20mobile-contactus-modal.jpg)
 
-### Future Features Development
+### Future feature development
 
 - I would liek to further develop the Contact us modal to contain an email form submission.
 
@@ -252,14 +252,14 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 - I run all source code through validators. My HTML web pages [W3C validator](https://validator.w3.org/) and my CSS stylesheet [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/). My source code passes validation and I've saved .pdf copies of the results in directory assets/validators.
 - I review any warnings to see if there are any potentially material issues that I can solve or easy wins to be had.  There are no material issues or easy wins.
 
-### Validator Testing 
+### Validator testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Foerbeyer.github.io%2FMS1%2Fhome.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Foerbeyer.github.io%252FMS1%252Fhome.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Unfixed Bugs
+### Unfixed bugs
 
 - I review any warnings from validators to see if there are any potentially material issues that I can solve or easy wins to be had.  There are no material issues or easy wins at this time.
 
@@ -277,7 +277,7 @@ The live link can be found here - https://oerbeyer.github.io/MS1/home.html
 
 ## Credits 
 
-### Layout & Styling
+### Layout & styling
 
 - I make extensive use of the [Bootstrap](https://getbootstrap.com/) framework and templates.
 - I use [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/) as a starting point for creating custom CSS rules specific to Google Maps.
