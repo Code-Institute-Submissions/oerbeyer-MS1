@@ -31,38 +31,36 @@ I chose this project for the following reasons:
 
 ## Layout
 
-- Each page follows the same overall layout delimited by semantic elements: <header>, <main>, and <footer>.
+- Each page follows the same overall layout delimited by semantic elements: `<header>`, `<main>`, and `<footer>`.
 - The header and footer are sticky. This is intended so that the mobile user can navigate to content (header) and click to contact (footer) without needing to scroll.
 - The footer is slightly unconventional in that it consists of a single button that opens up a contact form modal. The footer floats infront of page content.
 - A media rule is used to make main margin-top responsive to the collapsable navbar menu contiained in the header.
 - Styling for the header uses Bootstrap classes only.
 - Styling for the footer uses Bootstrap classes and custom CSS rules.
-- The <main> element has padding added using custom CSS rules to accommodate the sticky (collapsable nav menu) header and sticky (floating) footer.
+- The `<main>` element has padding added using custom CSS rules to accommodate the sticky (collapsable nav menu) header and sticky (floating) footer.
 - The app is tested for viewport widths of 320px or more.
 
 ## Templates
 I make extensive use of the Bootstrap framework and templates.
 
 For layout I use the following components:
-  * Grid
-  * Utilities
+  - Grid
+  - Utilities
 
 For features I use the following template components:
-  * Buttons
-  * Card
-  * Carousel
-  * Form
-  * Modal
-  * Navbar
+  - Buttons
+  - Card
+  - Carousel
+  - Modal
+  - Navbar
 
 ## Customisation:
 
 I customsie functional features at the template level by modifying template components:
-- The Carousel is customised by adding controls, captions, crossfade transitions, use containers to control display width, and add anchor tags to create links to additional content pages.
-- The Cards component is customised by TODO
-- The Navbar component is customised by using the main page heading instead of a button to toggle navigation, and centering nav items in the nav list.
-- The Form component is customised by TODO
-- The Modal component is customised by TODO
+  - The Carousel is customised by adding controls, captions, crossfade transitions, use containers to control display width, and add anchor tags to create links to additional content pages.
+  - The Cards component is customised by various styling classes from the Bootstrap framework.
+  - The Navbar component is customised by using the main page heading instead of a button to toggle navigation, and centering nav items in the nav list.
+  - The Modal component is customised by changing button configuration, making the phone number automatically dialable and adding a map from Googlemaps.
   
 I add, remmove and modify elements, classes, ids and associated attribute-value pairs using HTML and CSS to further cusomise features:
 
@@ -70,15 +68,15 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 
 - __Navbar__
 
-  - Wrap the entire navbar in a <header> element for semantic clarity.
+  - Wrap the entire navbar in a `<header>`` element for semantic clarity.
   - Replace id="navbarCollapse" with id="navbarMenu" for semantic clarity.
   - Style using mainly Bootstrap classes as opposed to cutom CSS rules.
   - Add class="navbar-expand-sm" so that nav menu becomes horizontally visible for larger screens when screen width > 576px (i.e. > sm).
-  - Add class="flex-column" so that main page heading and nav menu are automatically vertically stacked since the heading is wrapped in <a> (inline) and nav items are wrapped in <div> (block).
+  - Add class="flex-column" so that main page heading and nav menu are automatically vertically stacked since the heading is wrapped in `<a>` (inline) and nav items are wrapped in `<div>` (block).
   - Add class="text-center" so that main page heading and nav items are alwys horizontally centered.
   - Add class="fixed-top" so that navbar is sticks to the top and is always visible.
   - Add class="border-bottom" so that navbar and page content are clearly visually separated.
-  - Add data-toggle, data-target and aria properties to the main page heading <h2> element to control the collapsable nav menu.
+  - Add data-toggle, data-target and aria properties to the main page heading `<h2>` element to control the collapsable nav menu.
   - Add class="nav-link p-0" so that the main page heading styles similarly to the nav items.
   - Add class="p-2" so that nav items are visually sufficiently separated and large enough to tap by finger for mobile users.
   - Set nav {background-color: #fff;} so that navbar is not transparent i.e. covers any content behind it.
@@ -88,17 +86,17 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 - __Carousel__
 
   - Appears only in the home page. It gives the user an interactive navigation to the relevant service web page.
-  - Wrap the entire carousel in a <div class="container"> element to restrict display width for very wide screens.
+  - Wrap the entire carousel in a `<div class="container">` element to restrict display width for very wide screens.
   - Remove class=" d-none" and class="d-md-block" so that the slide caption always displays.
-  - Remove the <img> element and use the background-image attribute.
+  - Remove the `<img>` element and use the background-image attribute.
   - Replace id="carouselExampleCaptions" with id="carousel-home" for semantic clarity.
-  - Replace the <h5> elements with a more prominent <h2> elements in each slide.
+  - Replace the `<h5>` elements with a more prominent `<h2>` elements in each slide.
   - Add id="slide-workshop" and id="slide-lessons" to each slide to semantically identify each slide, to link with each content page and to set the background-image attribute for each slide using custom CSS rules.
   - Add class="slide-background" and set .slide-background {background-size: cover; background-repeat: no-repeat; background-position: center;} to center and stretch the backgrund image using custom CSS rules.
   - Set a media rule to display an alternative image for larger screens when screen width > 576px (i.e. > sm).
   - Set .carousel-caption {bottom: 5rem; background-color: rgba(0,0,0,0.4); border-radius: 1rem;} to vertically center the caption text, to add contrast between light text and background image, and soften corners of contrast box using custom CSS rules.
   - Set .carousel-caption > * {margin-bottom: 8px;} to remove unnecessary margin from the template using custom CSS rules.
-  - Set .carousel-item {height: 18rem;} necessary since there is no <img> element to provide a height to each slide using custom CSS rules.
+  - Set .carousel-item {height: 18rem;} necessary since there is no `<img>` element to provide a height to each slide using custom CSS rules.
 
 ![Carousel](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/A1%20mobile-home-topscroll.jpg)
 
@@ -106,33 +104,33 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 
   - Appears only in the home page. It shows the user some inspirational YouTube guitar performer-teacher video clips.
   - Design similar to Header-Section (Feature).
-  - Video clips are wrapped in <iframe> elements within <div> elements with BS embed-responsive classes and modifiers used.
+  - Video clips are wrapped in `<iframe>` elements within `<div>` elements with BS embed-responsive classes and modifiers used.
 
 - __Services section__
 
   - Appears only in the workshop page. It give the use a summary of the web page and directs next steps.
-  - Wrap content in <section> element for semantic clarity.
-  - Wrap section content in <div class="container"> element to restrict display width for very wide screens.
-  - Wrap section content in <div class="row pt-2"> element for sufficient spacing.
+  - Wrap content in `<section>` element for semantic clarity.
+  - Wrap section content in `<div class="container">` element to restrict display width for very wide screens.
+  - Wrap section content in `<div class="row pt-2">` element for sufficient spacing.
   - Create three card components using the same set of steps, varying only the content and formatting of the card headers.
-  - Wrap each card in a <div class="col-sm-4"> element to respond dynamically to screen width > 576px (i.e. > sm).
+  - Wrap each card in a `<div class="col-sm-4">` element to respond dynamically to screen width > 576px (i.e. > sm).
   - Add class=" mb-3 mb-sm-0" to all cards but for the last to manage vertical spacing between cards on smaller screens (i.e. < sm) and to maintain alignment of cards on larger scrreens (i.e. > sm).
   - Set .bg-bronze {background-color: #cd7f32;}, .bg-gold {background-color: #ffd700;} and .bg-silver {background-color: #c0c0c0;} to format card header backgrounds using custom CSS rules.
-  - Set classes used for styling card body class <div> elements identically.  In general, use subtitles to show progression and center text.
-  - Set classes used for styling card footer class <div> elements identically.  In general, maintain off-white background colour and set price to primary blue colour to attract attention.
+  - Set classes used for styling card body class `<div>` elements identically.  In general, use subtitles to show progression and center text.
+  - Set classes used for styling card footer class `<div>` elements identically.  In general, maintain off-white background colour and set price to primary blue colour to attract attention.
 
 ![Services](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/04%20laptop-workshop.jpg)
 
 - __Times section__ 
 
   - Appears only in the tuition page. It give the use a summary of the available session times and directs next steps.
-  - Wrap content in <section> element for semantic clarity.
-  - Wrap section content in <div class="container"> element to restrict display width for very wide screens.
-  - Wrap section content in <div class="row pt-2"> element for sufficient spacing.
+  - Wrap content in `<section>` element for semantic clarity.
+  - Wrap section content in `<div class="container">` element to restrict display width for very wide screens.
+  - Wrap section content in `<div class="row pt-2">` element for sufficient spacing.
   - Create a table showing general availability (locations) for days (vertical) and times (horizontal).
   - Add class="table table-sm text-center" and id="table-times-section" to format table contents and uniquely identify table for custom CSS rules.
   - Set a media rule to reduce font size for smaller screens so that table fits to screen width on mobiles when screen width < 576px (i.e. < sm).
-  - Add class="bg-primary text-light" and class="bg-success text-light" to <td> elements to help the user to visually identify different locations.
+  - Add class="bg-primary text-light" and class="bg-success text-light" to `<td>` elements to help the user to visually identify different locations.
 
 ![Times](https://github.com/oerbeyer/MS1/blob/master/assets/screenshots/03%20laptop-tuition.jpg)
 
@@ -211,4 +209,4 @@ The live link can be found here - https://oerbeyer.github.io/MS1/home.html
   - Photo by <a href="https://unsplash.com/@carteryocham?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carter Yocham</a> on <a href="https://unsplash.com/s/photos/workshop-man?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - Photo by <a href="https://unsplash.com/@angrytortilla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joel Drzycimski</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - Photo by <a href="https://unsplash.com/@jonnyswales1989?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonny Swales</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- I link to videos from [youtube.com](https://youtube.com/)
+- I use videos from [youtube.com](https://youtube.com/)
