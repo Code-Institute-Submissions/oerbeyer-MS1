@@ -255,26 +255,25 @@ I add, remmove and modify elements, classes, ids and associated attribute-value 
 
 ### Validator testing 
 
-- HTML
+- __HTML__
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Foerbeyer.github.io%2FMS1%2Fhome.html)
-- CSS
+
+- __CSS__
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Foerbeyer.github.io%252FMS1%252Fhome.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed bugs
 
-- I review any warnings from validators to see if there are any potentially material issues that I can solve or easy wins to be had.  There are no material issues or easy wins at this time.
+- I review any warnings from validators to see if there are any potentially material issues that I can solve or easy wins to be had. There are no material issues or easy wins at this time.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - Click on the Pages link.
-  - From the source section drop-down menu, select the Master Branch
+  - In the GitHub repository, navigate to the Settings tab.
+  - Click on the Pages sub tab.
+  - From the source section drop-down menu, select the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://oerbeyer.github.io/MS1/home.html 
+The live link can be found [here]( - )https://oerbeyer.github.io/MS1/home.html).
 
 ## Credits 
 
@@ -285,17 +284,17 @@ The live link can be found here - https://oerbeyer.github.io/MS1/home.html
 
 ### Content
 
-- The text for the pages are adapteed from the original webpage [sevenoaksguitarcentre.co.uk](https://www.sevenoaksguitarcentre.co.uk/)
-- I use free fonts from [fonts.google.com](https://fonts.google.com/)
-- I use free icons from [fontawesome.com](https://fontawesome.com)
+- The text for the pages are adapteed from the original webpage [sevenoaksguitarcentre.co.uk](https://www.sevenoaksguitarcentre.co.uk/).
+- I use free fonts from [fonts.google.com](https://fonts.google.com/).
+- I use free icons from [fontawesome.com](https://fontawesome.com).
 
 ### Media
 
-- I resize stock images using a free service [picresize.com](https://picresize.com/)
-- I use free stock images from [unsplash.com](https://unsplash.com/)
+- I resize stock images using a free service [picresize.com](https://picresize.com/).
+- I use free stock images from [unsplash.com](https://unsplash.com/):
   - Photo by <a href="https://unsplash.com/@krivitskiy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Krivitskiy</a> on <a href="https://unsplash.com/s/photos/guitar-female?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - Photo by <a href="https://unsplash.com/@yirage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andriyko Podilnyk</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - Photo by <a href="https://unsplash.com/@carteryocham?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carter Yocham</a> on <a href="https://unsplash.com/s/photos/workshop-man?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - Photo by <a href="https://unsplash.com/@angrytortilla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joel Drzycimski</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - Photo by <a href="https://unsplash.com/@jonnyswales1989?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonny Swales</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- I use videos from [youtube.com](https://youtube.com/)
+- I use videos from [youtube.com](https://youtube.com/).
