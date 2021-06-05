@@ -42,14 +42,14 @@ I chose this project for the following reasons:
 - The Header (Navbar) feature is described further below.
 - The other minor features are described here:
   - Main
-     - The <main> element has padding added using custom CSS rules to accommodate the sticky (collapsable nav menu) header and sticky (floating) footer.
+     - The `<main>` element has padding added using custom CSS rules to accommodate the sticky (collapsable nav menu) header and sticky (floating) footer.
      - Set main {margin-bottom: 4.4rem; margin-top: 4.4rem;} so that there is sufficient space top and bottom when the navbar menu is collapsed.
      - Set a media rule to increase the margin-top for larger screens when screen width > 576px (i.e. > sm).
   - Footer
-     - Wrap a <button> element containing a FontAwesome guitar icon inside a <div> element.
-     - Add data-bs-toggle and data-bs-target properties to the <button> element to control the modal contact form.
+     - Wrap a `<button>` element containing a FontAwesome guitar icon inside a `<div>` element.
+     - Add data-bs-toggle and data-bs-target properties to the `<button>` element to control the modal contact form.
      - Add class="btn" and class="btn-dark" to style the button.
-     - Add <i class="fas fa-guitar text-success text-light"> for the FontAweoms guitar icon.
+     - Add `<i class="fas fa-guitar text-success text-light">` for the FontAweoms guitar icon.
      - Add class="d-flex justify-content-center" to horixontally center the button.
      - Add class="px-3 py-2" so that there is sufficient space around the button and symmetry with the header.
      - Set footer {position: fixed; bottom:0; left:0; right: 0; z-index: 1020;} so that the button is fixed to the bottom and floating infront of other content using custom CSS rules.
